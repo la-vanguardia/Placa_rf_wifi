@@ -1,6 +1,6 @@
 # Placa Rf_Wifi
 
-## Conexiones a definir 
+### Conexiones a definir 
 
   - [ ] RX y TX al Micro
   - [ ] ¿RF es SPI y WIFI UART?
