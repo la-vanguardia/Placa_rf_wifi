@@ -1,4 +1,247 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise RF
+U 1 1 5D912FC6
+P 3800 3750
+F 0 "RF" H 3850 4067 50  0000 C CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 3850 3976 50  0000 C CNN
+F 2 "" H 3800 3750 50  0001 C CNN
+F 3 "~" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise Wifi
+U 1 1 5D91300E
+P 5400 3750
+F 0 "Wifi" H 5450 4067 50  0000 C CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 5450 3976 50  0000 C CNN
+F 2 "" H 5400 3750 50  0001 C CNN
+F 3 "~" H 5400 3750 50  0001 C CNN
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R_Wifi
+U 1 1 5D9131BD
+P 6150 4350
+F 0 "R_Wifi" H 6220 4396 50  0000 L CNN
+F 1 "R" H 6220 4305 50  0000 L CNN
+F 2 "" V 6080 4350 50  0001 C CNN
+F 3 "~" H 6150 4350 50  0001 C CNN
+	1    6150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R_Rf
+U 1 1 5D9131FF
+P 6550 4350
+F 0 "R_Rf" H 6620 4396 50  0000 L CNN
+F 1 "R" H 6620 4305 50  0000 L CNN
+F 2 "" V 6480 4350 50  0001 C CNN
+F 3 "~" H 6550 4350 50  0001 C CNN
+	1    6550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D_Wifi
+U 1 1 5D91328D
+P 6150 4650
+F 0 "D_Wifi" V 6188 4532 50  0000 R CNN
+F 1 "LED" V 6097 4532 50  0000 R CNN
+F 2 "" H 6150 4650 50  0001 C CNN
+F 3 "~" H 6150 4650 50  0001 C CNN
+	1    6150 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D_Rf
+U 1 1 5D913354
+P 6550 4650
+F 0 "D_Rf" V 6588 4532 50  0000 R CNN
+F 1 "LED" V 6497 4532 50  0000 R CNN
+F 2 "" H 6550 4650 50  0001 C CNN
+F 3 "~" H 6550 4650 50  0001 C CNN
+	1    6550 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even Entrada_PIC
+U 1 1 5D914BA8
+P 4650 4700
+F 0 "Entrada_PIC" V 4746 4412 50  0000 R CNN
+F 1 "Conn_02x05_Odd_Even" V 4655 4412 50  0000 R CNN
+F 2 "" H 4650 4700 50  0001 C CNN
+F 3 "~" H 4650 4700 50  0001 C CNN
+	1    4650 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D914D72
+P 4850 5050
+F 0 "#PWR?" H 4850 4800 50  0001 C CNN
+F 1 "GND" H 4855 4877 50  0000 C CNN
+F 2 "" H 4850 5050 50  0001 C CNN
+F 3 "" H 4850 5050 50  0001 C CNN
+	1    4850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5050 4850 4900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D914DEA
+P 4650 5100
+F 0 "#PWR?" H 4650 4950 50  0001 C CNN
+F 1 "+3V3" H 4665 5273 50  0000 C CNN
+F 2 "" H 4650 5100 50  0001 C CNN
+F 3 "" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 5100 4650 5000
+Wire Wire Line
+	4650 5000 4750 5000
+Wire Wire Line
+	4750 5000 4750 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5D914EBE
+P 6150 4900
+F 0 "#PWR?" H 6150 4650 50  0001 C CNN
+F 1 "GND" H 6155 4727 50  0000 C CNN
+F 2 "" H 6150 4900 50  0001 C CNN
+F 3 "" H 6150 4900 50  0001 C CNN
+	1    6150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D914ED7
+P 6550 4900
+F 0 "#PWR?" H 6550 4650 50  0001 C CNN
+F 1 "GND" H 6555 4727 50  0000 C CNN
+F 2 "" H 6550 4900 50  0001 C CNN
+F 3 "" H 6550 4900 50  0001 C CNN
+	1    6550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4900 6550 4800
+Wire Wire Line
+	6150 4900 6150 4800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D915308
+P 5000 3950
+F 0 "#PWR?" H 5000 3800 50  0001 C CNN
+F 1 "+3V3" V 5015 4078 50  0000 L CNN
+F 2 "" H 5000 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3950 5200 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5D91539D
+P 5850 3650
+F 0 "#PWR?" H 5850 3400 50  0001 C CNN
+F 1 "GND" V 5855 3522 50  0000 R CNN
+F 2 "" H 5850 3650 50  0001 C CNN
+F 3 "" H 5850 3650 50  0001 C CNN
+	1    5850 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3650 5850 3650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D9154B7
+P 5000 3750
+F 0 "#PWR?" H 5000 3600 50  0001 C CNN
+F 1 "+3V3" V 5015 3878 50  0000 L CNN
+F 2 "" H 5000 3750 50  0001 C CNN
+F 3 "" H 5000 3750 50  0001 C CNN
+	1    5000 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3750 5200 3750
+Text GLabel 5200 3650 0    50   BiDi ~ 0
+TX
+Text GLabel 5700 3950 2    50   BiDi ~ 0
+RX
+Text GLabel 5700 3850 2    50   BiDi ~ 0
+GPIO0
+Text GLabel 5700 3750 2    50   BiDi ~ 0
+GPIO2
+Text GLabel 5200 3850 0    50   BiDi ~ 0
+RESET
+$Comp
+L Connector:Conn_01x03_Male Jumper_UART
+U 1 1 5D915DFD
+P 7450 4700
+F 0 "Jumper_UART" V 7603 4513 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 7512 4513 50  0000 R CNN
+F 2 "" H 7450 4700 50  0001 C CNN
+F 3 "~" H 7450 4700 50  0001 C CNN
+	1    7450 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D916791
+P 4300 3650
+F 0 "#PWR?" H 4300 3500 50  0001 C CNN
+F 1 "+3V3" V 4315 3778 50  0000 L CNN
+F 2 "" H 4300 3650 50  0001 C CNN
+F 3 "" H 4300 3650 50  0001 C CNN
+	1    4300 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D916914
+P 3400 3650
+F 0 "#PWR?" H 3400 3400 50  0001 C CNN
+F 1 "GND" V 3405 3522 50  0000 R CNN
+F 2 "" H 3400 3650 50  0001 C CNN
+F 3 "" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 3650 3600 3650
+Wire Wire Line
+	4100 3650 4300 3650
+Text GLabel 3600 3750 0    50   BiDi ~ 0
+CE
+Text GLabel 4100 3750 2    50   BiDi ~ 0
+CSN
+Text GLabel 3600 3850 0    50   BiDi ~ 0
+SCK
+Text GLabel 4100 3850 2    50   BiDi ~ 0
+MOSI
+Text GLabel 3600 3950 0    50   BiDi ~ 0
+MISO
+Text GLabel 4100 3950 2    50   BiDi ~ 0
+IRQ
 $EndSCHEMATC
