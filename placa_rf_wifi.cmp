@@ -1,0 +1,75 @@
+Cmp-Mod V01 Created by PcbNew   date = 08/10/2019 21:36:20
+
+BeginCmp
+TimeStamp = 5DA95F70
+Path = /5D99ADFA
+Reference = C1;
+ValeurCmp = C_Small;
+IdModule  = Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA95F98
+Path = /5D914BA8
+Reference = Conn1;
+ValeurCmp = Entrada_PIC;
+IdModule  = Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA95FB6
+Path = /5D912FC6
+Reference = Conn2;
+ValeurCmp = RF;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA95FD4
+Path = /5D91300E
+Reference = Conn3;
+ValeurCmp = Wifi;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA95FEB
+Path = /5D915DFD
+Reference = Jumper1;
+ValeurCmp = JumperVcc;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA95FFD
+Path = /5D913354
+Reference = LED1;
+ValeurCmp = D_Rf;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA9600F
+Path = /5D91328D
+Reference = LED2;
+ValeurCmp = D_Wifi;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA9684B
+Path = /5D9131FF
+Reference = R1;
+ValeurCmp = R_Rf;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5DA9603D
+Path = /5D9131BD
+Reference = R2;
+ValeurCmp = R_Wifi;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+EndListe
