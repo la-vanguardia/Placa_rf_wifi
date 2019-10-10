@@ -86,7 +86,7 @@ U 1 1 5D914BA8
 P 4550 4150
 F 0 "Conn1" V 4646 3862 50  0000 R CNN
 F 1 "Entrada_PIC" V 4555 3862 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 4550 4150 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 4550 4150 50  0001 C CNN
 F 3 "~" H 4550 4150 50  0001 C CNN
 	1    4550 4150
 	0    -1   -1   0   
