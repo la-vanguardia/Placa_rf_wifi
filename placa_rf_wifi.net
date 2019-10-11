@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\Isaias\\Documentos\\Facultad\\Diseño de Sistemas con Microcontroladores\\Placa Wifi_Rf\\Placa_rf_wifi\\placa_rf_wifi.sch")
-    (date "10/10/2019 12:53:08")
+    (date "11/10/2019 19:03:53")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
