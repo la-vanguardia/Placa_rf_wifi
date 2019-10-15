@@ -323,6 +323,8 @@ Text GLabel 4750 4350 3    50   BiDi ~ 0
 IRQ
 Text GLabel 4550 4350 3    50   BiDi ~ 0
 CSN
-NoConn ~ 3700 3150
-NoConn ~ 4350 3850
+Text GLabel 3700 3150 2    50   BiDi ~ 0
+CE
+Text GLabel 4350 3850 1    50   BiDi ~ 0
+CE
 $EndSCHEMATC
