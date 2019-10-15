@@ -199,21 +199,19 @@ Text GLabel 3700 3050 2    50   BiDi ~ 0
 SCK
 Text GLabel 3700 2950 2    50   BiDi ~ 0
 MISO
-Text GLabel 3200 2950 0    50   BiDi ~ 0
-IRQ
 Wire Wire Line
 	2900 3250 3200 3250
 Wire Wire Line
 	3700 3250 3900 3250
 Text GLabel 4650 4350 3    50   BiDi ~ 0
 MOSI
-Text GLabel 4750 3850 1    50   BiDi ~ 0
+Text GLabel 4750 4350 3    50   BiDi ~ 0
 MISO
-Text GLabel 4650 3850 1    50   BiDi ~ 0
+Text GLabel 4750 3850 1    50   BiDi ~ 0
 SCK
-Text GLabel 4350 3850 1    50   BiDi ~ 0
-TX
 Text GLabel 4450 3850 1    50   BiDi ~ 0
+TX
+Text GLabel 4550 3850 1    50   BiDi ~ 0
 RX
 $Comp
 L power:+3V3 #PWR0107
@@ -319,12 +317,12 @@ F 3 "" H 7950 2600 50  0001 C CNN
 	1    7950 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 4350 3    50   BiDi ~ 0
-IRQ
 Text GLabel 4550 4350 3    50   BiDi ~ 0
 CSN
 Text GLabel 3700 3150 2    50   BiDi ~ 0
 CE
-Text GLabel 4550 3850 1    50   BiDi ~ 0
+Text GLabel 4650 3850 1    50   BiDi ~ 0
 CE
+NoConn ~ 3200 2950
+NoConn ~ 4350 3850
 $EndSCHEMATC

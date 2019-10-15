@@ -211,9 +211,9 @@ Text GLabel 4750 3850 1    50   BiDi ~ 0
 MISO
 Text GLabel 4650 3850 1    50   BiDi ~ 0
 SCK
-Text GLabel 4450 3850 1    50   BiDi ~ 0
+Text GLabel 4350 3850 1    50   BiDi ~ 0
 TX
-Text GLabel 4550 3850 1    50   BiDi ~ 0
+Text GLabel 4450 3850 1    50   BiDi ~ 0
 RX
 $Comp
 L power:+3V3 #PWR0107
@@ -325,6 +325,6 @@ Text GLabel 4550 4350 3    50   BiDi ~ 0
 CSN
 Text GLabel 3700 3150 2    50   BiDi ~ 0
 CE
-Text GLabel 4350 3850 1    50   BiDi ~ 0
+Text GLabel 4550 3850 1    50   BiDi ~ 0
 CE
 $EndSCHEMATC
